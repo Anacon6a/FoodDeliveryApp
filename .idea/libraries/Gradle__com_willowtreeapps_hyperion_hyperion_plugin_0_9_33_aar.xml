@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.willowtreeapps.hyperion:hyperion-plugin:0.9.33@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39a50c83db7f2f9936dc72a395330bd6/hyperion-plugin-0.9.33/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39a50c83db7f2f9936dc72a395330bd6/hyperion-plugin-0.9.33/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39a50c83db7f2f9936dc72a395330bd6/hyperion-plugin-0.9.33/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.hyperion/hyperion-plugin/0.9.33/42cbb1d9e9c003ad0e2fe40d20ea018ac62d0949/hyperion-plugin-0.9.33-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.hyperion/hyperion-plugin/0.9.33/79a775316cae8b944cd0170956c1f2a7ab017001/hyperion-plugin-0.9.33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

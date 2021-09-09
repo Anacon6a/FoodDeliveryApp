@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.willowtreeapps.hyperion:hyperion-geiger-counter:0.9.33@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/251f8ffa1782ec70c8ebd1d81c1879a4/hyperion-geiger-counter-0.9.33/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/251f8ffa1782ec70c8ebd1d81c1879a4/hyperion-geiger-counter-0.9.33/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/251f8ffa1782ec70c8ebd1d81c1879a4/hyperion-geiger-counter-0.9.33/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.hyperion/hyperion-geiger-counter/0.9.33/42cbb1d9e9c003ad0e2fe40d20ea018ac62d0949/hyperion-geiger-counter-0.9.33-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.hyperion/hyperion-geiger-counter/0.9.33/17550667f5ed5d08240f19225dd9ceab879e9b6/hyperion-geiger-counter-0.9.33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="MealDataBinding">
+        <variable
+            name="meal"
+            type="com.example.fooddeliveryapp.data.model.MealModel" />
+    </data>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_banner"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        app:strokeWidth="0.5dp"
+        app:strokeColor="@color/athens_gray"
+        app:cardBackgroundColor="@color/alabaster">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/appCompatImageView"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:layout_marginVertical="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="22dp"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.DifferentCornerSize.CornerSize20Percent"
+                loadImage="@{meal.image}"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@{meal.name}"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_bold"
+                    tools:text="Ветчина и грибы"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:ellipsize="end"
+                    android:textSize="14sp"
+                    tools:text="Ветчина, шампиньоны, увеличенная порция моцареллы, томатный соус" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_gravity="end"
+                    android:textSize="13sp"
+                    android:textColor="@color/radical_red"
+                    android:paddingHorizontal="18dp"
+                    android:text="от 345"/>
+            </GridLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

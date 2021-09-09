@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.willowtreeapps.hyperion:hyperion-shared-preferences:0.9.33@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2f151d2d08c36af240004ce814ee0f1/hyperion-shared-preferences-0.9.33/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2f151d2d08c36af240004ce814ee0f1/hyperion-shared-preferences-0.9.33/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2f151d2d08c36af240004ce814ee0f1/hyperion-shared-preferences-0.9.33/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.hyperion/hyperion-shared-preferences/0.9.33/8766395b434a503d983c50edc50e3275ec795013/hyperion-shared-preferences-0.9.33-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.hyperion/hyperion-shared-preferences/0.9.33/e54b82f8875b8f514b7533c386261785b21bcaf9/hyperion-shared-preferences-0.9.33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

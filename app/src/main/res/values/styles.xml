@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/gallery</item>
+        <item name="itemIconTint">@drawable/item_selector</item>
+        <item name="itemTextColor">@drawable/item_selector</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.DifferentCornerSize.CornerSize20Percent">
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="textTabs">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily" android:state_selected="true">@font/roboto_regular</item>
+    </style>
+    <declare-styleable name="ShadowContainer">
+        <attr name="containerShadowColor" format="color"/>
+        <attr name="containerShadowRadius" format="dimension"/>
+        <attr name="containerDeltaLength" format="dimension"/>
+        <attr name="containerCornerRadius" format="dimension"/>
+        <attr name="deltaX" format="dimension"/>
+        <attr name="deltaY" format="dimension"/>
+    </declare-styleable>
+</resources>
